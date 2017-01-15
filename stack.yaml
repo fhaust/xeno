@@ -1,4 +1,4 @@
-resolver: lts-7.14
+resolver: lts-6.27
 packages:
 - .
 - location:
@@ -8,3 +8,8 @@ extra-deps:
 - hexpat-0.20.9
 - List-0.5.2
 - libxml-0.1.1
+
+explicit-setup-deps:
+ "*": true
+extra-deps:
+ - liquidhaskell-cabal-0.1.1.0
